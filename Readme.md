@@ -90,7 +90,8 @@ The **Document Assistant** is a Streamlit-based web application designed to proc
 
 ## File Structure
 
-
+bash
+```
 document-assistant/
 │
 ├─ src/
@@ -104,7 +105,7 @@ document-assistant/
 ├─ README.md
 └─ .gitignore
 
-
+```
 ---
 
 ## Contributing
