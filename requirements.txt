@@ -1,0 +1,12 @@
+asyncio==3.5.1  # Included in Python standard library
+base64==1.0.0  # Included in Python standard library
+concurrent.futures==3.5.1  # Included in Python standard library
+docx==0.2.4
+fitz==0.0.1.dev2  # PyMuPDF dependency
+langchain==0.1.0
+langchain-community==0.1.0
+nltk==3.6.5  # Used by langchain-community (dependency)
+Pillow==9.0.0  # Used by streamlit (dependency)
+pptx==0.6.21
+spacy==3.1.1
+streamlit==1.4.1

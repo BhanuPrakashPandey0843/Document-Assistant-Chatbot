@@ -1,0 +1,19 @@
+ download the requirements also download Ollama
+pip install -r requirements.txt
+
+Open CMD and run this commands 
+python -m venv venv
+venv\Scripts\activate
+ollama run mistral
+
+
+Open CMD one more and run this commands 
+python -m venv venv
+venv\Scripts\activate
+ollama pull mistral
+streamlit run chat_pdf.py
+
+
+
+
+
