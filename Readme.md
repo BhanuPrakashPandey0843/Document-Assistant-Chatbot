@@ -25,47 +25,47 @@ The **Document Assistant** is a Streamlit-based web application designed to proc
 ## Installation
 
 1. **Clone the repository:**
-   ```bash
+ 
    git clone https://github.com/BhanuPrakashPandey0843/Document-Assistant-Chatbot.git
    cd document-assistant
-````
+
 
 2. **Create and activate a virtual environment:**
 
-   ```bash
+ 
    python -m venv venv
    venv\Scripts\activate   # Windows
    # source venv/bin/activate  # Mac/Linux
-   ```
+
 
 3. **Install dependencies:**
 
-   ```bash
+
    pip install -r requirements.txt
-   ```
+  
 
 4. **Install and run Ollama:**
 
-   ```bash
+   
    ollama run mistral
-   ```
+ 
 
 5. **Pull the Ollama model:**
 
-   ```bash
+  
    ollama pull mistral
-   ```
+
 
 6. **Run the Streamlit application:**
 
-   ```bash
+  
    streamlit run chat_pdf.py
-   ```
+ 
 
 7. **Open in your browser:**
    Navigate to `http://localhost:8501` to access the Document Assistant.
 
----
+
 
 ## Usage
 
@@ -86,11 +86,11 @@ The **Document Assistant** is a Streamlit-based web application designed to proc
 * **Streamlit:** Interactive web interface
 * **Ollama:** Language model for chat responses
 
----
+
 
 ## File Structure
 
-```
+
 document-assistant/
 │
 ├─ src/
@@ -103,7 +103,7 @@ document-assistant/
 ├─ requirements.txt
 ├─ README.md
 └─ .gitignore
-```
+
 
 ---
 
@@ -129,7 +129,7 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 * [langchain](https://www.langchain.com/) – Vectorization & text chunk handling
 * [Ollama](https://ollama.com/) – Language model used for chat interactions
 
-```
+
 
 ---
 
