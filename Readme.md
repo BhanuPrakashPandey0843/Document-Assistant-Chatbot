@@ -26,7 +26,7 @@ The **Document Assistant** is a Streamlit-based web application designed to proc
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/BhanuPrakashPandey0843/Document-Assistant-Chatbot.git
    cd document-assistant
 ````
 
